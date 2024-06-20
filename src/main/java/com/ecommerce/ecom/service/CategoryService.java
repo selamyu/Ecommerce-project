@@ -5,5 +5,6 @@ import com.ecommerce.ecom.model.Category;
 import java.util.List;
 
 public interface CategoryService {
-    List<Category>
+    List<Category>getAllCategories();
+    void createCategory(Category category);
 }
